@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f7;
+}
+.text {
+  border-radius: 20px;
+  width: 600px;
+  background-color: black;
+  color: white;
+  padding-left: 60px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.button {
+  background-color: #f5f5f7;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+}
