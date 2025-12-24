@@ -6,11 +6,21 @@
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
-  <body class="main">
-    <div>
-      <h1 class="text">Backround color: <span id="colorName"></span></h1>
+  <body>
+    <div
+      style="display: flex; justify-content: space-between; padding: 10px 20px"
+    >
+      <div id="nav-random" style="cursor: pointer">Random Mode</div>
+      <div id="nav-simple" style="cursor: pointer">Simple Mode</div>
+      <div id="nav-hex" style="cursor: pointer">Hex Mode</div>
     </div>
-    <button id="colorChanger" class="button">CLICK ME</button>
-    <script src="script.js"></script>
+
+    <div class="main">
+      <h1 class="text">
+        Background color: <span id="colorName">#FFFFFF</span>
+      </h1>
+      <button id="colorChanger" class="button">CLICK ME</button>
+      <script src="script.js"></script>
+    </div>
   </body>
 </html>
